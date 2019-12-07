@@ -1,4 +1,4 @@
-{
+n{
   "name": "build-supply",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish": "npx create-react-app build-supply --typescript && npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
